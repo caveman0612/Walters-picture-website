@@ -1,0 +1,56 @@
+html {
+    background-color:lightgray;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-outline {
+    /* border-radius: 3em; */
+padding: 3em;
+}
+
+.hero_section img{
+    width: 500px;
+    height: 450px
+    
+}
+
+.full_tummy {
+    object-fit: cover;
+    object-position: 30% 50%;
+}
+
+.full_body {
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+
+.mad_walter {
+    object-fit: cover;
+    object-position: 30% 60%;
+}
+
+.sad_face {
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+
+.out_window {
+    object-fit: cover;
+    object-position: 30% 50%;
+}
+
+.standing_tall {
+    object-fit: cover;
+    object-position: 0% 0%;
+}
